@@ -15,6 +15,7 @@ kết nối project với repo: git remote add origin url-repo
 git config --global user.name "name"
 git config --global user.email "email"
 
-đẩy code lên trên server (local repository => remote repository): git push -u origin master (lần thứ 2 trở đi chỉ cần chạy git push là được)
-
+7. đẩy code lên trên server (local repository => remote repository): git push -u origin master (lần thứ 2 trở đi chỉ cần chạy git push là được)
 *3 bước khi thay đổi file: add, commit, push
+
+8. tạo branch mới trên server: git checkout -b "feature1" (copy tất cả các code hiện có đang ở branch hiện tại sang branch mới)
