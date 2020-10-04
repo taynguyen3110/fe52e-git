@@ -1,0 +1,13 @@
+các câu lệnh git (gõ vào terminal):
+
+1. khởi tạo git: git init
+kết nối project với repo: git remote add origin url-repo
+
+2. kiểm tra trạng thái của source: git status
+- file màu đỏ: file đã thay đổi nhưng chưa save (working copy)
+- file màu xanh: file đã thay đổi và đã được save (staging area)
+
+3. save những file đã thay đổi (working copy => staging area): git add file-name hoặc .(save tất cả các file)
+
+4. commit những thay đổi (staging area => local repository): git commit -m
+5. git push -u origin master
