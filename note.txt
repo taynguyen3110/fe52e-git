@@ -21,9 +21,9 @@ git config --global user.email "email"
 8. tạo branch mới trên server: git checkout -b "feature1" (copy tất cả các code hiện có đang ở branch hiện tại sang branch mới)
 
 9. resolve conflict:
-    b1/ checkout master
-    b2/ pull
-    b3/ checkout feature2
+    b1/ git checkout master
+    b2/ git pull
+    b3/ git checkout feature2
     b4/ git merge master
     b5/ fix conflict
-    b6/ add, commit, push
+    b6/ git add ., git commit -m "message", git push
